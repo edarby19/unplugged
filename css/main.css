@@ -97,6 +97,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/*--- About Page ---*/
+
+.contact-section {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/*--- FAQ Page ---*/
+.faq .content-wrapper{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  
+}
+
 
 /* ==========================================================================
    Helper classes
