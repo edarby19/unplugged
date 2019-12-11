@@ -153,7 +153,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin: 50px 0 330px 0;
+    
   }
 
 
@@ -346,9 +346,7 @@ textarea {
   /* Table Styles */
   .content-wrapper {
     max-width: 640px;
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+  
   }
 
   /* Header */
@@ -407,9 +405,10 @@ textarea {
 }
 
 /* Reviews */
+
+
 .reviews article {
-  display: flex;
-  justify-content: center;
+ 
 }
 
 .reviews article div {
@@ -429,10 +428,6 @@ footer .content-wrapper {
 
 }
 
-footer .contact {
-
-}
-
 footer .copyright {
   margin-bottom: 0;
 }
@@ -440,6 +435,45 @@ footer .copyright {
 }
 
 
+@media only screen and (min-width: 1200px) {
+  .content-wrapper {
+    max-width: 960px;
+  
+  }
+
+/* Hero Area */
+
+.hero-area h1 {
+  width: 60%;
+}
+ /* Aside */
+
+ aside .content-wrapper {
+  justify-content: space-around;
+ 
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form
+{
+  width: 30%;
+
+}
+/* Features */
+.features h3 {
+  width: 70%;
+}
+.features article {
+  flex-basis: 33%;
+}
+
+/* Reviews */
+
+.reviews article div {
+  width: 50%;
+}
+
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
