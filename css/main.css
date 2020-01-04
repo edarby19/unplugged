@@ -108,6 +108,7 @@ textarea {
      font-family: 'Open Sans', sans-sarif;
      font-size: 1em;
      text-align: left;
+     color: #e2e3ed;
    }
 
    ul,ol {
@@ -117,20 +118,26 @@ textarea {
    a {
     color: #e2e3ed;
     text-decoration: none;
+    text-transform: uppercase;
    }
 
    h2 {
     font-family: 'Poppins', sans-sarif;
     font-size: 1.375em;
+    font-weight: normal;
+
    }
 
    h3, h4 {
     font-family: 'Poppins', sans-sarif;
     font-size: 1.7em;
+    font-weight: normal;
+
    }
 
    p {
      font-size: .8em;
+
    }
 
    img {}
@@ -153,6 +160,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: #202322;
   }
   
   header {
@@ -206,6 +214,8 @@ textarea {
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
+    background: #527158;
+    
   }
 
   aside .form {
@@ -248,6 +258,8 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: #2a423a;
+    
   }
 
 
@@ -384,6 +396,57 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   24
+   25
+   aside .form {
+     margin-top: 30px;
+   }
+    
+   input[type=text] {
+     box-sizing: border-box;
+     width: 100%;
+     color: #2a423a;
+     font-style: italic;
+     padding: 1em;
+   }
+    
+   input[type=button] {
+     width: 100%;
+     padding: 20px 0;
+     margin-top: 20px;
+     background-color: #2a423a;
+     font-family: 'Poppins', Helvetica, Arial, sans-serif;
+     font-weight: 500;
+     font-size: 1.125em;
+     color: #e2e3ed;
+     border: none;
+     text-align: center;
+     text-transform: uppercase;
+   }
+   
 @media only screen and (min-width: 768px) {
   /* Table Styles */
   .content-wrapper {
